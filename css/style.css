@@ -1,0 +1,280 @@
+
+/* Style ThE css pages */
+
+/* import THE Fonts */
+@font-face {
+  src: url(../fonts/Cairo-Black.ttf);
+  font-family: ar-heading;
+  font-size: 14px;
+}
+
+@font-face {
+  src: url(../fonts/JFFlatregular.ttf);
+  font-family: ar-content;
+  font-family: 16px;
+}
+
+body {
+  direction: rtl;
+  font-family: ar-content;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ar-heading;
+}
+
+header.top_header {
+  background-image: url(../images/bg_header.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.top_header nav button {
+  background-color: rgb(18, 214, 214);
+}
+
+header.top_header nav ul {
+  padding: 0;
+}
+
+header.top_header nav ul li a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+header.top_header nav ul li a:hover,
+header.top_header nav ul li a:active,
+header.top_header nav ul li a:focus {
+  color: black;
+}
+
+header.top_header .image img {
+  height: 400px;
+  margin: 30px 0;
+}
+
+
+header.top_header .title_col h5 {
+  margin: 35px 0;
+  color: black;
+}
+
+header.top_header .text_marketing p {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+}
+
+button.btn-custom {
+  background-color: #F7CF8A;
+  padding: 10px 22px;
+  border-radius: 25px;
+  color: black;
+  font-weight: bold;
+  margin: 25px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+button.btn-custom:hover,
+button.btn-custom:active,
+button.btn-custom:focus {
+  background-color: #f8b94c;
+}
+
+.title h5 {
+  margin: 45px 0;
+  font-size: 25px;
+}
+
+.Key_blue .about-me .image img {
+  height: 300px;
+  margin: 65px 0;
+}
+
+.Key_blue .about-me .products_store {
+  margin-top: 5%;
+}
+
+.Key_blue .about-me .title_img h6 {
+  margin: 25px 0;
+}
+
+.Key_blue .about-me .text_marketing p {
+  margin-bottom: 25px;
+  color: black;
+}
+
+.Key_blue .about-me .button_mark a {
+  text-decoration: none;
+  background-color: #1E7AE1;
+  padding: 10px 22px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+
+.Key_blue .about-me .button_mark a:hover,
+.Key_blue .about-me .button_mark a:focus,
+.Key_blue .about-me .button_mark a:active {
+  background-color: #30b6f5;
+  color: black;
+  font-weight: bold;
+}
+
+.Featured_store {
+  background-color: #4bc5fd;
+  padding: 30px 0;
+  margin: 40px 0;
+}
+
+.Featured_store .title-image h5 {
+  margin: 15px 0;
+}
+
+.Featured_store .image_icon img {
+  height: 85px;
+  margin: 25px 0;
+}
+
+.Buy_Products .card {
+  border-radius: 0;
+  margin: 25px 0;
+}
+
+.Buy_Products .card .card-body h5 {
+  margin: 15px 0;
+}
+
+.Buy_Products .card .card-body p.card-text {
+  margin: 30px 0;
+  color: black;
+}
+
+.Buy_Products .card .card-body .button_mark a {
+  text-decoration: none;
+  background-color: #30b6f5;
+  padding: 10px 24px;
+  border-radius: 25px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.Buy_Products .card .card-body .button_mark a:hover,
+.Buy_Products .card .card-body .button_mark a:active,
+.Buy_Products .card .card-body .button_mark a:focus {
+  background-color: #4bc5fd;
+  color: black;
+  font-weight: bold;
+}
+
+.last-footer {
+  background-color: #4bc5fd;
+  padding: 8px;
+  margin-top: 15px;
+}
+
+.last-footer .social-media ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.last-footer .social-media ul li {
+  margin-right: 0 !important;
+  margin-left: 8px;
+  background-color: orange;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.last-footer .social-media ul li:hover,
+.last-footer .social-media ul li:active,
+.last-footer .social-media ul li:focus {
+  background-color: rgb(190, 125, 3);
+}
+
+.last-footer .social-media ul li a {
+  text-decoration: none;
+}
+
+.last-footer .social-media ul li a svg {
+  font-size: 18px;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.last-footer .social-media ul li a svg:hover,
+.last-footer .social-media ul li a svg:active,
+.last-footer .social-media ul li a svg:focus {
+  color: wheat;
+}
+
+.last-footer .copyright h5 {
+  font-size: 16px;
+  margin-top: 28px;
+}
+
+
+
+/* Responsive pages by Media Query */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+  header.top_header nav ul li a {
+    color: white;
+  }
+
+  header.top_header .image img {
+    height: 270px;
+    margin: 0px 0;
+  }
+
+  .Key_blue .about-me .image img {
+    height: 280px;
+  }
+
+  .last-footer .copyright h5 {
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 20px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  header.top_header nav ul li a {
+    color: white;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  header.top_header nav ul li a {
+    color: white;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Responsive size GOOD */
+}
+
+@media all and (min-width: 1200px) {
+  /* Responsive size GOOD */
+}
+
+
