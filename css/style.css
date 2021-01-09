@@ -31,6 +31,12 @@ header.top_header {
   background-size: cover;
 }
 
+header.top_header nav a.navbar-brand {
+  background: white;
+  padding: 10px;
+  border-radius: 20%;
+}
+
 header.top_header nav button {
   background-color: rgb(18, 214, 214);
 }
